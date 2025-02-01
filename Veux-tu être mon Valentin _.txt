@@ -1,0 +1,54 @@
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feliz San Valentín</title>
+  <style>
+    body {
+      background-color: #ff99cc;
+      font-family: Arial, sans-serif;
+    }
+    .contenedor {
+      width: 80%;
+      margin: 40px auto;
+      text-align: center;
+    }
+    .titulo {
+      font-size: 36px;
+      color: #ff0033;
+    }
+    .mensaje {
+      font-size: 24px;
+      color: #666;
+    }
+    .boton {
+      background-color: #ff0033;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .boton:hover {
+      background-color: #ff0066;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <h1 class="titulo">Feliz San Valentín</h1>
+    <p class="mensaje">Querido/a [nombre],</p>
+    <p class="mensaje">En este día de amor y amistad, quiero decirte cuánto te quiero y aprecio. Eres una persona especial en mi vida y me siento afortunado/a de tenerte a mi lado.</p>
+    <button class="boton" onclick="mostrarMensaje()">Haz clic para ver un mensaje especial</button>
+    <div id="mensaje-especial" style="display: none;">
+      <p class="mensaje">Eres la persona más importante en mi vida y te amo más que ayer, pero menos que mañana.</p>
+    </div>
+  </div>
+  <script>
+    function mostrarMensaje() {
+      document.getElementById("mensaje-especial").style.display = "block";
+    }
+  </script>
+</body>
+</html>
+```
