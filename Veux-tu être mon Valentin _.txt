@@ -37,7 +37,7 @@
 <body>
   <div class="contenedor">
     <h1 class="titulo">Feliz San Valentín</h1>
-    <p class="mensaje">Querido/a [nombre],</p>
+    <p class="mensaje">amoiiiii [mi Ojitos bonitos],</p>
     <p class="mensaje">En este día de amor y amistad, quiero decirte cuánto te quiero y aprecio. Eres una persona especial en mi vida y me siento afortunado/a de tenerte a mi lado.</p>
     <button class="boton" onclick="mostrarMensaje()">Haz clic para ver un mensaje especial</button>
     <div id="mensaje-especial" style="display: none;">
